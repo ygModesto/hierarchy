@@ -10,15 +10,15 @@ public class Department {
 	Collection<User> users;
 	
 	
-	private Department() {
+	public Department() {
 	}
 	
-	private Department(Long departmentId, String name) {
+	public Department(Long departmentId, String name) {
 		this.departmentId = departmentId;
 		this.name = name;
 	}
 	
-	private Department(Long departmentId, String name, Collection<User> users) {
+	public Department(Long departmentId, String name, Collection<User> users) {
 		this.departmentId = departmentId;
 		this.name = name;
 		this.users = users;

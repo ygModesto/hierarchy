@@ -7,10 +7,10 @@ public class User {
 	private String login;
 	
 	
-	private User() {
+	public User() {
 	}
 	
-	private User(Long userId, String name, String login) {
+	public User(Long userId, String name, String login) {
 		this.userId = userId;
 		this.name = name;
 		this.login = login;
